@@ -40,7 +40,7 @@ steps:
     command: 'push'
     nuGetFeedType: 'internal'
     packagesToPush: '$(build.artifactStagingDirectory)/*.nupkg'
-    publishVstsFeed: "WholeschoolPackages"
-    publishFeedCredentials: WholeschoolPackagesAuth
+    publishVstsFeed: "TwitterSentiment"
+    publishFeedCredentials: KannanPackagesAuth
 
 - task: PublishBuildArtifacts@1
