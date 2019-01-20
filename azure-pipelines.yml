@@ -23,7 +23,7 @@ steps:
     testRunner: VSTest
     testResultsFiles: '**/*.trx'
     
- - task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@2
   displayName: 'dotnet pack'
   inputs:
     command: pack
