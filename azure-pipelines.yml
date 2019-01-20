@@ -15,7 +15,7 @@ steps:
   displayName: 'Prepare analysis on SonarCloud'
   inputs:
     SonarCloud: KPKOrg
-    organization: 'KANNAN KOZHAVUR PADMANABHAN'
+    organization: 'kannan-kozhavur-padmanabhan28899'
     projectKey: 'c8b9ade7-2d33-4630-b3e5-5b8596e7c11c'
     projectName: TwitterSentiment
 
